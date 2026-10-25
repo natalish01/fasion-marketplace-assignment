@@ -131,6 +131,7 @@ table {
 }
 
 a {
+    display: inline-flex;
     text-decoration: none;
     color: #000;
 }

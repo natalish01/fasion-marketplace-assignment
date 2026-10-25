@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fasion marketplace</title>
+    <title>Fasion Marketplace</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link
@@ -14,29 +14,75 @@
 </head>
 <body>
     <header>
-        <nav class="d-flex gap-40 align-center">
+        <nav class="d-flex gap-40 align-center ">
             <a href="index.html" class="logo">Logo</a>
             <form action="" class="search">
-                <img src="assets/images/searching.svg" alt="searching-icon" class="search-icon">
-                <input type="search" placeholder="Search Items, Feshion, Collection and Users">
+                <img src="assets/images/icons/searching.svg" alt="searching-icon" class="search-icon">
+                <input type="search" aria-label="Search" placeholder="Search Items, Feshion, Collection and Users">
             </form>
             <ul class="nav-links d-flex gap-40">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="">Explore <img src="assets/images/dropdown.svg" alt="dropdown"></a></li>
+                <li><a href="">Explore <img src="assets/images/icons/dropdown.svg" alt="dropdown"></a></li>
                 <li><a href="">Personal Collection</a></li>
                 <li><a href="">Drops</a></li>
-                <li><a href="">More <img src="assets/images/dropdown.svg" alt="dropdown"></a></li>
+                <li><a href="">More <img src="assets/images/icons/dropdown.svg" alt="dropdown"></a></li>
             </ul>
             <div class="nav-action d-flex align-center">
-                <button type="button" class="icon-btn" ><img src="assets//images/alarts.svg" alt="alart-icon"></button>
-                <button type="button" class="icon-btn"><img src="assets/images/notifications.svg" alt="notifucation-icon"></button>
+                <button type="button" class="icon-btn" ><img src="assets/images/icons/alarts.svg" alt="alart-icon"></button>
+                <button type="button" class="icon-btn"><img src="assets/images/icons/notifications.svg" alt="notifucation-icon"></button>
                 <button type="button" class="btn">Wallet</button>
                 <div class="profile-dropdown d-flex align-center">
-                    <img src="assets/images/chevron.svg" alt="">
-                    <button type="button" class="profile"><img src="assets/images/user-icon.svg" alt="user-icon"></button>
+                    <img src="assets/images/icons/chevron.svg" alt="">
+                    <button type="button" class="profile"><img src="assets/images/icons/user-icon.svg" alt="user-icon"></button>
                 </div>
             </div>
         </nav>
     </header>
+    <main>
+        <section class="hero">
+            <div class="tabs d-flex justify-center">
+                    <button class="tab active-btn">Main Collection</button>
+                    <button class="tab non-active">Creators Market</button>
+            </div>
+                <div class="contents d-flex wrap container ">
+                    <div class="content">
+                        <h1 class="lh-135">Clothes are the Spirit of Fashion</h1>
+                        <p class="lh-180">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit..</p>
+                        <a href="" class="btn"> Explore Now </a>
+                        <a href="" class="btn-2">Create</a>
+            
+                        <ul class="statistics-wrapper  d-flex justify-between">
+                            <li>
+                                <p class="bold-700 ">100 +</p>
+                                <p >Brands</p>
+                            </li>
+                            <li>
+                                <p class="bold-700 ">20k +</p>
+                                <p >Fashion Designer</p>
+                            </li>
+                            <li>
+                                <p class="bold-700">60 +</p>
+                                <p >Fashion Shows</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="gallery">
+                        <div class="gallery-col">
+                            <img src="assets/images/Cyber-Purple Sneakers.png" alt="Cyber-Purple Sneakers">
+                            <img src="assets/images/Chrome Suit.png" alt="Chrome suit">
+                            <img src="assets/images/Rainbow Slider.png" alt="rainbow slider">
+                        </div>
+                        <div class="gallery-col">
+                            <img src="assets/images/Gold-Lightning Shoes.png" alt="Gold-Lightning Shoes">
+                            <img src="assets/images/Liquid Chrome Jacket.png" alt="Liquid Chrome Jacket">
+                            <img src="assets/images/Camo Techwear.png" alt="Camo Techwear">
+                        </div>
+                        <div class="gallery-col">
+                            <img src="assets/images/Gold Gala Gown.png" alt="Gold Gala Gown">
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
 </body>
 </html>
